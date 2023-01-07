@@ -17,6 +17,7 @@
 <div>If user choose to edit their availabilty on an existing schedule, they will be asked to provide their team's MeetLink ID</div>
 <img src="demo/edit.png">
 <br/>
+<div>For both options to create or edit, user can pick their availability for the team to know</div>
 <img src="demo/schedule.png">
 <br/>
 <img src="demo/confirmation.png">
