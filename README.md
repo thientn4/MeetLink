@@ -2,7 +2,7 @@
 
 <div>MeetLink is a web app for teams to pick the best meeting date and time where majority of team members can attend</div>
 <ul>
-  <li>Front-end interface is implemented with VueJS.</li>
+  <li>Front-end interface is implemented with VueJS (HTML, CSS, JavaScript).</li>
   <li>Back-end is built with ExpressJS with a database in PostgreSQL.</li>
   <li>External RestAPIs to support validating and sending email</li>
 </ul>
