@@ -17,7 +17,7 @@
 <div>If user choose to edit their availabilty on an existing schedule, they will be asked to provide their team's MeetLink ID</div>
 <img src="demo/edit.png">
 <br/>
-<div>For both options to create or edit, user can pick their availability for the team to know</div>
+<div>For both options to create or edit, user can pick their availability for the team to know (time slot boxes with darker color has more team members available at that time for a meeting)</div>
 <img src="demo/schedule.png">
 <br/>
 <img src="demo/confirmation.png">
