@@ -11,8 +11,10 @@
 <br/>
 <img src="demo/email.png">
 <br/>
+<div>If user choose to create new planner, they will be told to pick meeting dates and given a MeetLink ID for their teams</div>
 <img src="demo/calendar.png">
 <br/>
+<div>If user choose to edit their availabilty on an existing schedule, they will be asked to provide their team's MeetLink ID</div>
 <img src="demo/edit.png">
 <br/>
 <img src="demo/schedule.png">
