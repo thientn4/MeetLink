@@ -23,14 +23,14 @@
                     <table width="480px" style="table-layout: fixed">
                         <tr>
                             <th 
-                                v-for="timeSlot in ['PDT',...this.plannerInfo.timeSlots.slice(this.timeSlotsIter,this.timeSlotsIter+3).map((slot)=>(
+                                v-for="timeSlot in ['PST',...this.plannerInfo.timeSlots.slice(this.timeSlotsIter,this.timeSlotsIter+3).map((slot)=>(
                                 slot.date.slice(0,4)+'-'+
                                 this.months[parseInt(slot.date.slice(5,7))-1]+'-'+
                                 slot.date.slice(8,10)
                                 ))]" v-bind:key="timeSlot.id"
                                 :class="{
                                         timezone_title:
-                                        timeSlot=='PDT',
+                                        timeSlot=='PST',
                                     }"
                             >
                                 {{timeSlot}}
