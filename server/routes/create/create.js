@@ -1,6 +1,6 @@
 const express = require('express');
 const router=express.Router()
-const db = require("../dbInfo.js")
+const db = require("../dbInfo.js").default
 
 router.post('/',(req,res,next)=>{
     db.query("select max(meet_id) from meetlink.dates"
